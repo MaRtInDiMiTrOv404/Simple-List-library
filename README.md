@@ -13,7 +13,6 @@ namespace SimpleListUsage
         {
             // Create a new SimpleList object
             SimpleList myList = new SimpleList();
-
             // Add some integers to the list
             myList.Add(5);
             myList.Add(10);
