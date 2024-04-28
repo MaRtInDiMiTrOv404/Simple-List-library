@@ -5,14 +5,19 @@
 using System;
 using SimpleListLibrary;
 
+
 namespace SimpleListUsage
 {
+
     class Program
     {
+    
         static void Main(string[] args)
         {
+        
             // Create a new SimpleList object
             SimpleList myList = new SimpleList();
+
             // Add some integers to the list
             myList.Add(5);
             myList.Add(10);
@@ -34,5 +39,6 @@ namespace SimpleListUsage
         }
     }
 }
+
 
 This code creates a SimpleList object, adds some integers to it, finds the minimum and maximum elements, sorts the list, and then prints the sorted list. You can modify and expand upon this code to suit your needs.
